@@ -12,8 +12,8 @@ namespace Testing
     {
         private readonly IDbConnection _conn;
 
-        
-            public ProductRepository(IDbConnection conn)
+
+        public ProductRepository(IDbConnection conn)
         {
             _conn = conn;
         }
